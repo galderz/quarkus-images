@@ -13,4 +13,10 @@ packages:
   - unzip
   - gcc-c++
 
-
+envs:
+  - name: "LANG"
+    value: "en_US.UTF-8"
+  - name: "LANGUAGE"
+    value: "en_US:en"
+  - name: "LC_ALL"
+    value: "en_US.UTF-8"
